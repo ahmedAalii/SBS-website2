@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="bg-black text-white shadow-md fixed top-0 left-0 right-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-        
+
         {/* Logo */}
         <div className="flex items-center space-x-2 font-bold text-xl text-white">
           <span className="text-white">SBS</span>
@@ -29,7 +29,7 @@ const Navbar = () => {
           <Link to="/login" className="border border-yellow-400 text-yellow-400 px-4 py-1 rounded hover:bg-yellow-400 hover:text-black transition">
             LOGIN
           </Link>
-          <Link to="/join" className="bg-yellow-400 text-black px-4 py-1 rounded hover:bg-yellow-300 transition">
+          <Link to="/join-us" className="bg-yellow-400 text-black px-4 py-1 rounded hover:bg-yellow-300 transition">
             JOIN US
           </Link>
         </div>
@@ -51,7 +51,7 @@ const Navbar = () => {
           <Link to="/login" className="block border border-yellow-400 text-yellow-400 px-4 py-1 rounded hover:bg-yellow-400 hover:text-black transition" onClick={toggleMenu}>
             LOGIN
           </Link>
-          <Link to="/join" className="block bg-yellow-400 text-black px-4 py-1 rounded hover:bg-yellow-300 transition" onClick={toggleMenu}>
+          <Link to="/join-us" className="block bg-yellow-400 text-black px-4 py-1 rounded hover:bg-yellow-300 transition" onClick={toggleMenu}>
             JOIN US
           </Link>
         </div>
